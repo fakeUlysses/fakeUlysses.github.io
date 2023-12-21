@@ -3,8 +3,7 @@
   <entry>
     <title>blog</title>
     <url>/2023/12/19/blog/</url>
-    <content><![CDATA[<hr>
-<h1 id="年终总结"><a href="#年终总结" class="headerlink" title="年终总结"></a>年终总结</h1><h1 id="12月寄录"><a href="#12月寄录" class="headerlink" title="12月寄录"></a>12月寄录</h1><p>ok，闲了一天</p>
+    <content><![CDATA[<h1 id="12月寄录"><a href="#12月寄录" class="headerlink" title="12月寄录"></a>12月寄录</h1><p>ok，闲了一天</p>
 <p>该恢复更新了</p>
 <p>最近解决遇到好的点子都会记录在下面</p>
 <h2 id="nacos缓存问题"><a href="#nacos缓存问题" class="headerlink" title="nacos缓存问题"></a>nacos缓存问题</h2><h2 id="linkedHashMap排序问题"><a href="#linkedHashMap排序问题" class="headerlink" title="linkedHashMap排序问题"></a>linkedHashMap排序问题</h2><h2 id="程序优化时长排序"><a href="#程序优化时长排序" class="headerlink" title="程序优化时长排序"></a>程序优化时长排序</h2><h2 id="刷题"><a href="#刷题" class="headerlink" title="刷题"></a>刷题</h2><h2 id="导出组件代码编写-逻辑处理-遇到什么问题"><a href="#导出组件代码编写-逻辑处理-遇到什么问题" class="headerlink" title="导出组件代码编写-逻辑处理-遇到什么问题"></a>导出组件代码编写-逻辑处理-遇到什么问题</h2><p>导出组件平常用cn.afterturn的EasyPoi包等开源组件即可解决，复杂一点的自己编写一套代码即可，但要写一个为全部项目通用的导出组件，那就要做到全方面的适配和限制，这也是我在公司的组件开发组工作时参与过的比较棘手的项目之一。</p>
@@ -52,7 +51,6 @@
 <h2 id="pdm文件设计规范"><a href="#pdm文件设计规范" class="headerlink" title="pdm文件设计规范"></a>pdm文件设计规范</h2><h2 id="思考未来-做事"><a href="#思考未来-做事" class="headerlink" title="思考未来&#x2F;做事"></a>思考未来&#x2F;做事</h2><h2 id="ai辅助创作"><a href="#ai辅助创作" class="headerlink" title="ai辅助创作"></a>ai辅助创作</h2><p>分为三个维度</p>
 <p>sql，代码，报错</p>
 <h2 id="内部需求分享"><a href="#内部需求分享" class="headerlink" title="内部需求分享"></a>内部需求分享</h2><p>java17   jvm   sql索引 流程引擎编写，代码规范宣讲，前后端开发规范</p>
-<p>title: blog<br>date: 2023-12-19 11:36:11<br>tags: 总结</p>
 ]]></content>
   </entry>
 </search>
