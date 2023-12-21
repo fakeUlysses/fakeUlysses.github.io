@@ -3,6 +3,56 @@
   <entry>
     <title>blog</title>
     <url>/2023/12/19/blog/</url>
-    <content><![CDATA[]]></content>
+    <content><![CDATA[<hr>
+<h1 id="年终总结"><a href="#年终总结" class="headerlink" title="年终总结"></a>年终总结</h1><h1 id="12月寄录"><a href="#12月寄录" class="headerlink" title="12月寄录"></a>12月寄录</h1><p>ok，闲了一天</p>
+<p>该恢复更新了</p>
+<p>最近解决遇到好的点子都会记录在下面</p>
+<h2 id="nacos缓存问题"><a href="#nacos缓存问题" class="headerlink" title="nacos缓存问题"></a>nacos缓存问题</h2><h2 id="linkedHashMap排序问题"><a href="#linkedHashMap排序问题" class="headerlink" title="linkedHashMap排序问题"></a>linkedHashMap排序问题</h2><h2 id="程序优化时长排序"><a href="#程序优化时长排序" class="headerlink" title="程序优化时长排序"></a>程序优化时长排序</h2><h2 id="刷题"><a href="#刷题" class="headerlink" title="刷题"></a>刷题</h2><h2 id="导出组件代码编写-逻辑处理-遇到什么问题"><a href="#导出组件代码编写-逻辑处理-遇到什么问题" class="headerlink" title="导出组件代码编写-逻辑处理-遇到什么问题"></a>导出组件代码编写-逻辑处理-遇到什么问题</h2><p>导出组件平常用cn.afterturn的EasyPoi包等开源组件即可解决，复杂一点的自己编写一套代码即可，但要写一个为全部项目通用的导出组件，那就要做到全方面的适配和限制，这也是我在公司的组件开发组工作时参与过的比较棘手的项目之一。</p>
+<p>项目的难点之一就在于源码的沟通问题。项目组的成员不止一次抱怨过组长写的的框架代码完全没有注释，即使有文档使用起来也很困难。</p>
+<p>面对优化的困难和组员的刁难，组长的回复是–</p>
+<p>方法名就是最好的注释。</p>
+<p>是的，所以一定要学好英文啊，这样其他组员一边拿英文翻译插件划上划下去去理解词汇的意思，在旁边早早完成任务偷摸鱼的就是你了。</p>
+<p>当然，方法名用英翻还有另一重好处就是方便ai理解。在gpt上的使用体验就是这样的，用英文提问出来的结果质量比中文要好，毕竟中文的搜索环境拉的一批，语料训练库就不是一个质量级别的。</p>
+<p>另外方法名</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;!-- 引入EasyPoi包 --&gt;</span><br><span class="line">&lt;dependency&gt;</span><br><span class="line">    &lt;groupId&gt;cn.afterturn&lt;/groupId&gt;</span><br><span class="line">    &lt;artifactId&gt;easypoi-spring-boot-starter&lt;/artifactId&gt;</span><br><span class="line">    &lt;version&gt;4.3.0&lt;/version&gt;</span><br><span class="line">&lt;/dependency&gt;</span><br><span class="line">&lt;!-- 建议只用start --&gt;</span><br><span class="line">&lt;dependency&gt;</span><br><span class="line">    &lt;groupId&gt;cn.afterturn&lt;/groupId&gt;</span><br><span class="line">    &lt;artifactId&gt;easypoi-base&lt;/artifactId&gt;</span><br><span class="line">    &lt;version&gt;4.3.0&lt;/version&gt;</span><br><span class="line">&lt;/dependency&gt;</span><br></pre></td></tr></table></figure>
+
+<p>导出组件刚开始使用的时候头比较大，但通过一步步调试，找到其关键源码还是解决了问题。</p>
+<p>在其中idea的调试方式和循环步骤帮了我很大的忙</p>
+<p>和内部组件开发组的大哥讨论半天后决定弃用反射</p>
+<h2 id="influxDB"><a href="#influxDB" class="headerlink" title="influxDB"></a>influxDB</h2><h2 id="比较开心的事情就是自己对别人的需求理解比较透彻，举一反三"><a href="#比较开心的事情就是自己对别人的需求理解比较透彻，举一反三" class="headerlink" title="比较开心的事情就是自己对别人的需求理解比较透彻，举一反三"></a>比较开心的事情就是自己对别人的需求理解比较透彻，举一反三</h2><p>对事物的抽象理解更深了</p>
+<h2 id="不太好的点是对自己改代码的格式要求不够规范"><a href="#不太好的点是对自己改代码的格式要求不够规范" class="headerlink" title="不太好的点是对自己改代码的格式要求不够规范"></a>不太好的点是对自己改代码的格式要求不够规范</h2><p>规范是用来保护我们的</p>
+<h2 id="pdm文件设计规范"><a href="#pdm文件设计规范" class="headerlink" title="pdm文件设计规范"></a>pdm文件设计规范</h2><h2 id="思考未来-做事"><a href="#思考未来-做事" class="headerlink" title="思考未来&#x2F;做事"></a>思考未来&#x2F;做事</h2><h2 id="ai辅助创作"><a href="#ai辅助创作" class="headerlink" title="ai辅助创作"></a>ai辅助创作</h2><p>分为三个维度</p>
+<p>sql，代码，报错</p>
+<h2 id="内部需求分享"><a href="#内部需求分享" class="headerlink" title="内部需求分享"></a>内部需求分享</h2><p>java17   jvm   sql索引 流程引擎编写，代码规范宣讲，前后端开发规范</p>
+]]></content>
+      <tags>
+        <tag>总结</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/2023/12/21/12%E6%9C%88%E5%AF%84%E5%BD%95/</url>
+    <content><![CDATA[<h1 id="12月寄录"><a href="#12月寄录" class="headerlink" title="12月寄录"></a>12月寄录</h1><p>ok，闲了一天</p>
+<p>该恢复更新了</p>
+<p>最近解决遇到好的点子都会记录在下面</p>
+<h2 id="nacos缓存问题"><a href="#nacos缓存问题" class="headerlink" title="nacos缓存问题"></a>nacos缓存问题</h2><h2 id="linkedHashMap排序问题"><a href="#linkedHashMap排序问题" class="headerlink" title="linkedHashMap排序问题"></a>linkedHashMap排序问题</h2><h2 id="程序优化时长排序"><a href="#程序优化时长排序" class="headerlink" title="程序优化时长排序"></a>程序优化时长排序</h2><h2 id="刷题"><a href="#刷题" class="headerlink" title="刷题"></a>刷题</h2><h2 id="导出组件代码编写-逻辑处理-遇到什么问题"><a href="#导出组件代码编写-逻辑处理-遇到什么问题" class="headerlink" title="导出组件代码编写-逻辑处理-遇到什么问题"></a>导出组件代码编写-逻辑处理-遇到什么问题</h2><p>导出组件平常用cn.afterturn的EasyPoi包等开源组件即可解决，复杂一点的自己编写一套代码即可，但要写一个为全部项目通用的导出组件，那就要做到全方面的适配和限制，这也是我在公司的组件开发组工作时参与过的比较棘手的项目之一。</p>
+<p>项目的难点之一就在于源码的沟通问题。项目组的成员不止一次抱怨过组长写的的框架代码完全没有注释，即使有文档使用起来也很困难。</p>
+<p>面对优化的困难和组员的刁难，组长的回复是–</p>
+<p>方法名就是最好的注释。</p>
+<p>是的，所以一定要学好英文啊，这样其他组员一边拿英文翻译插件划上划下去去理解词汇的意思，在旁边早早完成任务偷摸鱼的就是你了。</p>
+<p>当然，方法名用英翻还有另一重好处就是方便ai理解。在gpt上的使用体验就是这样的，用英文提问出来的结果质量比中文要好，毕竟中文的搜索环境拉的一批，语料训练库就不是一个质量级别的。</p>
+<p>另外方法名</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;!-- 引入EasyPoi包 --&gt;</span><br><span class="line">&lt;dependency&gt;</span><br><span class="line">    &lt;groupId&gt;cn.afterturn&lt;/groupId&gt;</span><br><span class="line">    &lt;artifactId&gt;easypoi-spring-boot-starter&lt;/artifactId&gt;</span><br><span class="line">    &lt;version&gt;4.3.0&lt;/version&gt;</span><br><span class="line">&lt;/dependency&gt;</span><br><span class="line">&lt;!-- 建议只用start --&gt;</span><br><span class="line">&lt;dependency&gt;</span><br><span class="line">    &lt;groupId&gt;cn.afterturn&lt;/groupId&gt;</span><br><span class="line">    &lt;artifactId&gt;easypoi-base&lt;/artifactId&gt;</span><br><span class="line">    &lt;version&gt;4.3.0&lt;/version&gt;</span><br><span class="line">&lt;/dependency&gt;</span><br></pre></td></tr></table></figure>
+
+<p>导出组件刚开始使用的时候头比较大，但通过一步步调试，找到其关键源码还是解决了问题。</p>
+<p>在其中idea的调试方式和循环步骤帮了我很大的忙</p>
+<p>和内部组件开发组的大哥讨论半天后决定弃用反射</p>
+<h2 id="influxDB"><a href="#influxDB" class="headerlink" title="influxDB"></a>influxDB</h2><h2 id="比较开心的事情就是自己对别人的需求理解比较透彻，举一反三"><a href="#比较开心的事情就是自己对别人的需求理解比较透彻，举一反三" class="headerlink" title="比较开心的事情就是自己对别人的需求理解比较透彻，举一反三"></a>比较开心的事情就是自己对别人的需求理解比较透彻，举一反三</h2><p>对事物的抽象理解更深了</p>
+<h2 id="不太好的点是对自己改代码的格式要求不够规范"><a href="#不太好的点是对自己改代码的格式要求不够规范" class="headerlink" title="不太好的点是对自己改代码的格式要求不够规范"></a>不太好的点是对自己改代码的格式要求不够规范</h2><p>规范是用来保护我们的</p>
+<h2 id="pdm文件设计规范"><a href="#pdm文件设计规范" class="headerlink" title="pdm文件设计规范"></a>pdm文件设计规范</h2><h2 id="思考未来-做事"><a href="#思考未来-做事" class="headerlink" title="思考未来&#x2F;做事"></a>思考未来&#x2F;做事</h2><h2 id="ai辅助创作"><a href="#ai辅助创作" class="headerlink" title="ai辅助创作"></a>ai辅助创作</h2><p>分为三个维度</p>
+<p>sql，代码，报错</p>
+<h2 id="内部需求分享"><a href="#内部需求分享" class="headerlink" title="内部需求分享"></a>内部需求分享</h2><p>java17   jvm   sql索引 流程引擎编写，代码规范宣讲，前后端开发规范</p>
+<p>title: blog<br>date: 2023-12-19 11:36:11<br>tags: 总结</p>
+]]></content>
   </entry>
 </search>
